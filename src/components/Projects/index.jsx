@@ -5,7 +5,7 @@ const listOfProjects = [
     {
         id: 1,
         name: 'Cristian Dev - Blog',
-        description: 'Un portal actualmente en desarrollo, inicialmente creado como blog personal.',
+        description: 'A portal currently under development, initially created as a personal blog..',
         urlProject: 'https://csalazar.dev',
         urlCode: 'https://github.com/cristian04yamil',
         technologies: 'React',
@@ -18,7 +18,7 @@ const Projects = () => (
         <Spacer id="projects"/>
         <Spacer y={4} />
         <Text h2 align="center" color="white">
-            Proyectos Destacados
+            Featured projects
         </Text>
         <Spacer y={2}/>
         <Grid.Container gap={2} justify="center">

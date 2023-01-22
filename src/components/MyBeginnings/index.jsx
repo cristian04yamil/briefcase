@@ -6,18 +6,18 @@ const MyBeginnings = () => (
         <Spacer id="history" />
         <Spacer y={4} />
         <Text h2 align="center" color="white" >
-            Mi historia
+            My story
         </Text>
         <Spacer y={2} />
         <Row justify="center">
             <Grid sm={12} md={8} direction="column">
                 <Text color="white" size="1.1rem" margin={20}>
-                    Antes de iniciar en este mundo del desarrollo web, era un estudiante de la universidad de jujuy donde aprendi programacion he inicie mis primeros pasos como programador haya por el año 2014
-                </Text>
-                {/* <Text color="white" size="1.1rem" margin={20}>
-                    Seguramente te estarás preguntando, como fue la transición del mundo de YouTube a desarrollador, pues verás, yo soy una persona inconforme, siempre quiero aprender o crear cosas nuevas, por lo cual quise crear una página web para mi canal en el que yo pueda publicar mi propio contenido, pueda tener control sobre ella y mejor aún, anexar mis videos de youtube y que se actualicen automaticamente. 
+                    Before starting in this world of web development, I was a student at the University of Jujuy where I learned to program in different languages ​​and started my first steps as a programmer in 2014.
                 </Text>
                 <Text color="white" size="1.1rem" margin={20}>
+                    After finishing university in 2017, I started my first job as a web developer for the municipality of Palpala where I worked for two years.
+                </Text>
+                {/* <Text color="white" size="1.1rem" margin={20}>
                     Si bien esa era mi idea inicial, no tenía idea de como hacerlo así que empece a buscar videos en YouTube de como crear tu propia página web, hasta que encontré una página para crear páginas web llamada <Link color icon href="https://www.wix.com/" rel="noreferrer noopener" target="_blank"><Text b>Wix</Text></Link>. Yo estaba muy emocionado porque estaba creando algo propio con mis propias manos, era básicamente como mi "pequeña marca personal". A medida que iba pasando el tiempo yo sentía la necesidad de agregar más y más cosas, hasta el punto en el que Wix <Tooltip className={styles.tooltip} content="No recuerdo puntualmente que era, pero estaba relacionado con los videos de YouTube." color="primary"><Text b className={styles.underline} size="1.1rem">no me permitía hacer lo que quería hacer</Text></Tooltip> y tampoco encontraba videos que me ayudaran con eso.
                 </Text>
                 <Text color="white" size="1.1rem" margin={20}>
@@ -30,20 +30,16 @@ const MyBeginnings = () => (
         </Row>
         <Spacer y={2} />
         <Text h3 align="center" color="white" id="projects">
-            ¿Qué he aprendido estos últimos años?
+            What have I learned these past years?
         </Text>
         <Spacer y={2} />
         <Row justify="center">
             <Grid sm={12} md={8} direction="column">
-                <Text color="white" size="1.1rem" margin={20}>
-                   Continuando con la linea de la historia, en mi primer trabajo tuve la oportunidad de aprender <Link color="warning" icon href="https://angularjs.org/" rel="noreferrer noopener" target="_blank"><Text b>AngularJS</Text></Link> y <Link color="warning" icon href="https://angular.io/" rel="noreferrer noopener" target="_blank"><Text b>Angular 2</Text></Link> con ambas tecnologías participé en el desarrollo de una aplicación de "mesa de entrada" y empece a aplicar todo lo aprendido en la universidad html5, css , javasctip, git etc.
-                </Text>
-                <Text color="white" size="1.1rem" margin={20}>
-                   Al cabo de 1 año aproximadamente tuve que dejar mi país para llegar a Argentina, en donde tuve la oportunidad de trabajar con Angular 5 en un proyecto para un call center. Luego de 2 años, cambié de proyecto a uno destinado a la parte de atención al cliente por chat el cual fue desarrollado en el Frontend con <Link color="warning" icon href="https://en.reactjs.org/" rel="noreferrer noopener" target="_blank"><Text b>React.</Text></Link> En esta etapa una de las cosas que aprendí fue el concepto de <Link color="warning" icon href="https://micro-frontends.org/" rel="noreferrer noopener" target="_blank"><Text b>micro frontends,</Text></Link> gracias a esta arquitectura pudimos incrustar el chat dentro de una aplicación monolitica construida en AngularJS. También pudimos hacerlo dentro de las aplicaciones móviles con código nátivo, esta vez utilizando <Link color="warning" icon href="https://developer.android.com/reference/android/webkit/WebView/" rel="noreferrer noopener" target="_blank"><Text b>Web Views.</Text></Link>
+                <Text color="white" size="1.1rem" margin={20}>  
+                    Continuing with the story line, in my first job I had the opportunity to learn <Link color="warning" icon href="https://angularjs.org/" rel="noreferrer noopener" target="_blank"><Text b>AngularJS</Text></Link> y <Link color="warning" icon href="https://angular.io/" rel="noreferrer noopener" target="_blank"><Text b>Angular 2</Text></Link> with both technologies, I participated in the development of various applications. I began to apply everything I learned at the university html5, css, bootstrap  javasctip, git etc.
                 </Text>
                 <Text blockquote size="1.1rem" margin={20} color="primary" className={styles.blockquote}>
-                    Lo que más me encantó de esto, fue como <Text b>hacer coexistir varias aplicaciones dentro de una misma</Text>, sin importar las tecnologías en las que éstas estén hechas, así como también tener la posibilidad de estar en un equipo totalmente aislado al de la aplicación principal y gozar de total libertad e independencia en el desarrollo y despliegue de nuevas versiones.
-                </Text>
+                    What I loved the most about this was how to make several applications coexist within the same one, regardless of the technologies in which they are made, as well as having the possibility of being on a computer totally isolated from the main application and enjoying of total freedom and independence in the development and deployment of new versions.                </Text>
                 {/* <Text color="white" size="1.1rem" margin={20}>
                    Paralelamente a mi trabajo, estoy trabajando en mi propio blog el cual está hecho con <Link color="warning" icon href="https://svelte.dev/" rel="noreferrer noopener" target="_blank"><Text b>Svelte</Text></Link> (el cual debes haber visto en mis <Link color icon href="#projects">proyectos destacados</Link>) y aunque al momento de escribir esto, el backend en el que estoy trabajando no está conectado a él, estoy utilizando <Link color="warning" icon href="https://nestjs.com/" rel="noreferrer noopener" target="_blank"><Text b>NestJS</Text></Link> para crear las sesiones y la posiblidad crear contenido desde el blog.
                 </Text>
@@ -51,7 +47,7 @@ const MyBeginnings = () => (
                     Además también tengo bastante tiempo trabajando como freelance en <Link color icon href="https://www.workana.com/freelancer/b4aebd5f18465eb956a6404f3f3d5995" rel="noreferrer noopener" target="_blank">Workana</Link>, desde que empecé siempre estuve en el area móvil, utilizando <Link color="warning" icon href="https://ionicframework.com/" rel="noreferrer noopener" target="_blank"><Text b>Ionic 3</Text></Link> y <Link color="warning" icon href="https://reactnative.dev/" rel="noreferrer noopener" target="_blank"><Text b>React Native</Text></Link> para desarrollar las aplicaciones.
                 </Text> */}
                 <Text color="white" size="1.1rem" margin={20}>
-                   Por último al día de hoy, en mi empleo actual estoy trabajando con <Link color="warning" icon href="https://reactjs.org/" rel="noreferrer noopener" target="_blank"><Text b>ReactJS</Text></Link> y nodejs.
+                    Finally today, in my current job I am working as Fullstack with <Link color="warning" icon href="https://reactjs.org/" rel="noreferrer noopener" target="_blank"><Text b>ReactJS</Text></Link> y <Link color="warning" icon href="https://nodejs.org/" rel="noreferrer noopener" target="_blank"><Text b>NodeJS</Text></Link>.
                 </Text>
             </Grid>
         </Row>

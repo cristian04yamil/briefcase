@@ -19,19 +19,19 @@ const Presentation = () => {
                 <Grid xs={12} sm={6}>
                     <Col>
                             <Text h6 size={15} color="white" style={{ margin: 0 }}>
-                                Hola, mi nombre es
+                                Hello, my name is
                             </Text>
                             <Text h1 color="white" style={{ margin: 0 }}>
                                 Cristian Salazar
                             </Text>
                             <Text h3 color="#efe" style={{ margin: 0 }}>
-                                Desarrollo aplicaciones webs y móviles
+                                Developer web applications
                             </Text>
                             <Text h4 color="#b6b6b6" style={{ margin: 0, marginBottom: 15 }}>
-                                Soy desarrollador frontend. Me considero una persona proactiva y siempre en busca de crear nuevas cosas 🚀.
+                            I'm a frontend developer. I consider myself a proactive person and always looking to create new things and new challenges. 🚀.
                             </Text>
                             <Button rounded auto iconRight={<FiMail />} onClick={contact}>
-                                Contáctame
+                                Contact me
                             </Button>
                     </Col>
                 </Grid>

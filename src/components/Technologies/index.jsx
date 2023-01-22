@@ -9,13 +9,13 @@ const Technologies = () => (
         <Spacer id="technologies"/>
         <Spacer y={4} />
         <Text h2 align="center" color="white">
-            Tecnologías
+            Technologies
         </Text>
         <Spacer y={2} />
         <Row justify="center">
             <Grid sm={12} md={8} direction="column">
                 <Text color="white" size="1.1rem">
-                    De manera resumida les dejo algunas de las tecnologías o herramientas con las que he trabajado.
+                    In summary, I leave you some of the technologies or tools with which I have worked.
                 </Text>
             </Grid>
         </Row>
