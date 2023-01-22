@@ -12,9 +12,9 @@ const MyBeginnings = () => (
         <Row justify="center">
             <Grid sm={12} md={8} direction="column">
                 <Text color="white" size="1.1rem" margin={20}>
-                    Antes de iniciar en este mundo del desarrollo web, me dedicaba a hacer videos en youtube sobre videojuegos, en esos momentos aprendí a editar videos, para ello solía usar varias herramientas como <Text b>Adobe After Effects, Sony Vegas Pro, Camtasia,</Text> además para crear las miniaturas de los videos aprendí un poco a usar <Text b>Adobe Photoshop.</Text>
+                    Antes de iniciar en este mundo del desarrollo web, era un estudiante de la universidad de jujuy donde aprendi programacion he inicie mis primeros pasos como programador haya por el año 2014
                 </Text>
-                <Text color="white" size="1.1rem" margin={20}>
+                {/* <Text color="white" size="1.1rem" margin={20}>
                     Seguramente te estarás preguntando, como fue la transición del mundo de YouTube a desarrollador, pues verás, yo soy una persona inconforme, siempre quiero aprender o crear cosas nuevas, por lo cual quise crear una página web para mi canal en el que yo pueda publicar mi propio contenido, pueda tener control sobre ella y mejor aún, anexar mis videos de youtube y que se actualicen automaticamente. 
                 </Text>
                 <Text color="white" size="1.1rem" margin={20}>
@@ -25,7 +25,7 @@ const MyBeginnings = () => (
                 </Text>
                 <Text color="white" size="1.1rem" margin={20}>
                     A partir de ahí empece a tener curiosidad por crear páginas web, poco a poco me fui empapando a tal punto de conseguir la suficiente experienca para conseguir <Tooltip className={styles.tooltip} content="Para este momento tenía conocimientos básicos en HTML, CSS y jQuery" color="primary"><Text b className={styles.underline} size="1.1rem">mi primer trabajo en mi país natal Venezuela.</Text></Tooltip>
-                </Text>
+                </Text> */}
             </Grid>
         </Row>
         <Spacer y={2} />
@@ -36,7 +36,7 @@ const MyBeginnings = () => (
         <Row justify="center">
             <Grid sm={12} md={8} direction="column">
                 <Text color="white" size="1.1rem" margin={20}>
-                   Continuando con la linea de la historia, en mi primer trabajo tuve la oportunidad de aprender <Link color="warning" icon href="https://angularjs.org/" rel="noreferrer noopener" target="_blank"><Text b>AngularJS</Text></Link> y <Link color="warning" icon href="https://angular.io/" rel="noreferrer noopener" target="_blank"><Text b>Angular 2</Text></Link> con ambas tecnologías participé en el desarrollo de una aplicación de telecomunicaciones trabajando con manejo de datos en tiempo real, mostrando datos historicos y demás. También participé en un proyecto de Elearning.
+                   Continuando con la linea de la historia, en mi primer trabajo tuve la oportunidad de aprender <Link color="warning" icon href="https://angularjs.org/" rel="noreferrer noopener" target="_blank"><Text b>AngularJS</Text></Link> y <Link color="warning" icon href="https://angular.io/" rel="noreferrer noopener" target="_blank"><Text b>Angular 2</Text></Link> con ambas tecnologías participé en el desarrollo de una aplicación de "mesa de entrada" y empece a aplicar todo lo aprendido en la universidad html5, css , javasctip, git etc.
                 </Text>
                 <Text color="white" size="1.1rem" margin={20}>
                    Al cabo de 1 año aproximadamente tuve que dejar mi país para llegar a Argentina, en donde tuve la oportunidad de trabajar con Angular 5 en un proyecto para un call center. Luego de 2 años, cambié de proyecto a uno destinado a la parte de atención al cliente por chat el cual fue desarrollado en el Frontend con <Link color="warning" icon href="https://en.reactjs.org/" rel="noreferrer noopener" target="_blank"><Text b>React.</Text></Link> En esta etapa una de las cosas que aprendí fue el concepto de <Link color="warning" icon href="https://micro-frontends.org/" rel="noreferrer noopener" target="_blank"><Text b>micro frontends,</Text></Link> gracias a esta arquitectura pudimos incrustar el chat dentro de una aplicación monolitica construida en AngularJS. También pudimos hacerlo dentro de las aplicaciones móviles con código nátivo, esta vez utilizando <Link color="warning" icon href="https://developer.android.com/reference/android/webkit/WebView/" rel="noreferrer noopener" target="_blank"><Text b>Web Views.</Text></Link>
@@ -44,14 +44,14 @@ const MyBeginnings = () => (
                 <Text blockquote size="1.1rem" margin={20} color="primary" className={styles.blockquote}>
                     Lo que más me encantó de esto, fue como <Text b>hacer coexistir varias aplicaciones dentro de una misma</Text>, sin importar las tecnologías en las que éstas estén hechas, así como también tener la posibilidad de estar en un equipo totalmente aislado al de la aplicación principal y gozar de total libertad e independencia en el desarrollo y despliegue de nuevas versiones.
                 </Text>
-                <Text color="white" size="1.1rem" margin={20}>
+                {/* <Text color="white" size="1.1rem" margin={20}>
                    Paralelamente a mi trabajo, estoy trabajando en mi propio blog el cual está hecho con <Link color="warning" icon href="https://svelte.dev/" rel="noreferrer noopener" target="_blank"><Text b>Svelte</Text></Link> (el cual debes haber visto en mis <Link color icon href="#projects">proyectos destacados</Link>) y aunque al momento de escribir esto, el backend en el que estoy trabajando no está conectado a él, estoy utilizando <Link color="warning" icon href="https://nestjs.com/" rel="noreferrer noopener" target="_blank"><Text b>NestJS</Text></Link> para crear las sesiones y la posiblidad crear contenido desde el blog.
                 </Text>
                 <Text color="white" size="1.1rem" margin={20}>
                     Además también tengo bastante tiempo trabajando como freelance en <Link color icon href="https://www.workana.com/freelancer/b4aebd5f18465eb956a6404f3f3d5995" rel="noreferrer noopener" target="_blank">Workana</Link>, desde que empecé siempre estuve en el area móvil, utilizando <Link color="warning" icon href="https://ionicframework.com/" rel="noreferrer noopener" target="_blank"><Text b>Ionic 3</Text></Link> y <Link color="warning" icon href="https://reactnative.dev/" rel="noreferrer noopener" target="_blank"><Text b>React Native</Text></Link> para desarrollar las aplicaciones.
-                </Text>
+                </Text> */}
                 <Text color="white" size="1.1rem" margin={20}>
-                   Por último al día de hoy, en mi empleo actual estoy trabajando con <Link color="warning" icon href="https://vuejs.org/" rel="noreferrer noopener" target="_blank"><Text b>VueJS</Text></Link> en un proyecto de ecommerce.
+                   Por último al día de hoy, en mi empleo actual estoy trabajando con <Link color="warning" icon href="https://reactjs.org/" rel="noreferrer noopener" target="_blank"><Text b>ReactJS</Text></Link> y nodejs.
                 </Text>
             </Grid>
         </Row>

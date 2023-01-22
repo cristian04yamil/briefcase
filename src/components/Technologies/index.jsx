@@ -46,12 +46,6 @@ const Technologies = () => (
                     </Grid>
                     <Grid className={styles.skill}>
                         <TechnologyItem 
-                            icon={<SiSvelte size="4rem" color="#ff3c00" />}
-                            name="Svelte"
-                        />
-                    </Grid>
-                    <Grid className={styles.skill}>
-                        <TechnologyItem 
                             icon={<SiVuedotjs size="4rem" color="#41b883" />}
                             name="Vue"
                         />
@@ -73,18 +67,6 @@ const Technologies = () => (
                         <TechnologyItem 
                             icon={<SiJest size="4rem" color="#99424f"/>}
                             name="Jest"
-                        />
-                    </Grid>
-                    <Grid className={styles.skill}>
-                        <TechnologyItem 
-                            icon={<SiTestinglibrary size="4rem" color="#eb3938"/>}
-                            name="Testing Lib."
-                        />
-                    </Grid>
-                    <Grid className={styles.skill}>
-                        <TechnologyItem 
-                            icon={<SiCypress size="4rem" color="#ffffff" />}
-                            name="Cypress"
                         />
                     </Grid>
                 </Grid.Container>

@@ -6,19 +6,19 @@ import styles from './index.module.css'
 
 const MENU_ITEMS = [
     {
-        name: 'Sobre mi',
+        name: 'About me',
         href: '#about-me'
     },
     {
-        name: 'Proyectos',
+        name: 'Projects',
         href: '#projects'
     },
     {
-        name: 'Historia',
+        name: 'History',
         href: '#history'
     },
     {
-        name: 'Tecnologías',
+        name: 'Technologies',
         href: '#technologies'
     }
 ]
@@ -41,7 +41,9 @@ const Header = () => {
 
     const downloadCV = () => { 
         setIsOpenMenu(!isOpenMenu)
-        window.open('/cv.pdf', '_blank') 
+        // import ProfileImg from '../../assets/me.jpg'
+
+        window.open('https://github.com/cristian04yamil/briefcase/raw/main/public/cv.pdf', '_blank') 
     }
 
     return (
@@ -49,7 +51,7 @@ const Header = () => {
             <Container>
                 <Row align="center">
                     <Col className={styles.logoContainer} span={2}>
-                        <img src="./logo3.png" alt="logo" width={40} />
+                        <img src="https://raw.githubusercontent.com/cristian04yamil/briefcase/main/public/csala.png" alt="logo" width={40} />
                     </Col>
                     <Col className={styles.menuContainer}>
                         <Grid md={0} className={styles.mobileMenuButton} onClick={() => setIsOpenMenu(!isOpenMenu)}>
@@ -78,7 +80,7 @@ const Header = () => {
                                     )
                                 }
                                 <Button auto rounded className={styles.resumeButtton} onClick={downloadCV}>
-                                    Descargar CV
+                                    Download CV
                                 </Button>
                             </Grid>
                         </Grid>
@@ -102,7 +104,7 @@ const Header = () => {
                                 )
                             }
                             <Button auto rounded className={styles.resumeButtton} onClick={downloadCV}>
-                                Descargar CV
+                                Download CV
                             </Button>
                         </Grid>
                     </Col>
