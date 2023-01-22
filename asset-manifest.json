@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/briefcase/static/css/main.f4ac6c03.chunk.css",
+    "main.js": "/briefcase/static/js/main.767a62ad.chunk.js",
+    "main.js.map": "/briefcase/static/js/main.767a62ad.chunk.js.map",
+    "runtime-main.js": "/briefcase/static/js/runtime-main.60ab50f5.js",
+    "runtime-main.js.map": "/briefcase/static/js/runtime-main.60ab50f5.js.map",
+    "static/js/2.6289a67a.chunk.js": "/briefcase/static/js/2.6289a67a.chunk.js",
+    "static/js/2.6289a67a.chunk.js.map": "/briefcase/static/js/2.6289a67a.chunk.js.map",
+    "static/js/3.26a5e066.chunk.js": "/briefcase/static/js/3.26a5e066.chunk.js",
+    "static/js/3.26a5e066.chunk.js.map": "/briefcase/static/js/3.26a5e066.chunk.js.map",
+    "index.html": "/briefcase/index.html",
+    "static/css/main.f4ac6c03.chunk.css.map": "/briefcase/static/css/main.f4ac6c03.chunk.css.map",
+    "static/js/2.6289a67a.chunk.js.LICENSE.txt": "/briefcase/static/js/2.6289a67a.chunk.js.LICENSE.txt",
+    "static/media/app.module.css": "/briefcase/static/media/cover.6d8434ee.jpg",
+    "static/media/me.58e0f78f.jpg": "/briefcase/static/media/me.58e0f78f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.60ab50f5.js",
+    "static/js/2.6289a67a.chunk.js",
+    "static/css/main.f4ac6c03.chunk.css",
+    "static/js/main.767a62ad.chunk.js"
+  ]
+}
